@@ -124,6 +124,7 @@ const generateQuote = () => {
   let arrayIdx = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").innerHTML = quotes[arrayIdx].quote;
   document.getElementById("author").innerHTML = quotes[arrayIdx].author;
+
 }
 window.onload = () => {
   generateQuote();
